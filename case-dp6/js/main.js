@@ -71,6 +71,13 @@
         submit.removeAttr('disabled');
       }, 200);
     }, Math.random() * 2000);
+    
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'contato',
+      eventAction: 'enviado',
+      eventLabel: 'enviado'
+    });
   });
 
   jQuery(
