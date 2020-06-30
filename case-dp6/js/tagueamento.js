@@ -1,7 +1,7 @@
 var _gaq = _gaq || [];
 
 function loadTracking() {
-        window._gaq.push(['_setAccount', 'UA-171419676-1']);
+        window._gaq.push(['_setAccount', 'UA-12345-6']);
         window._gaq.push(['_trackPageview']);
 
         (function() {
@@ -52,7 +52,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais',
+                eventAction: 'ver_mais_lorem',
                 eventLabel: 'lorem'
             });
 
@@ -63,7 +63,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais',
+                eventAction: 'ver_mais_ipsum',
                 eventLabel: 'ipsum'
             });
 
@@ -74,7 +74,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais',
+                eventAction: 'ver_mais_dolor',
                 eventLabel: 'dolor'
             });
 
@@ -101,6 +101,4 @@ function sentHandler() {
         eventAction: 'enviado',
         eventLabel: 'enviado'
     });
-
-    console.log('enviado');
 }
