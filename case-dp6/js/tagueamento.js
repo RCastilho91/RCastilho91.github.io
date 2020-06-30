@@ -52,7 +52,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais_lorem',
+                eventAction: 'ver_mais',
                 eventLabel: 'lorem'
             });
 
@@ -63,7 +63,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais_ipsum',
+                eventAction: 'ver_mais',
                 eventLabel: 'ipsum'
             });
 
@@ -74,7 +74,7 @@ function analyticsHandler(buttonId){
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'analise',
-                eventAction: 'ver_mais_dolor',
+                eventAction: 'ver_mais',
                 eventLabel: 'dolor'
             });
 
